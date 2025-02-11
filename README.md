@@ -1,13 +1,8 @@
-# Sample Hardhat Project
+# Initialize the project
+- npm i
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+# Create your .env file
+- PRIVATE_KEY="Your Private Key here"
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+# Deploy the project
+- npx hardhat run --network core_testnet scripts/deploy.js
